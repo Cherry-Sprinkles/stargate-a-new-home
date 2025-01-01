@@ -1,0 +1,1632 @@
+{
+    "version": 0,
+    "spatial": {
+        "radius": 2322.710693,
+        "box": {
+            "center": [-0.607788, 200.462372, 6.012085],
+            "extents": [2308.492676, 623.600098, 2313.927734]
+        },
+        "can_be_displaced_on_collision": false
+    },
+    "physics": {
+        "can_move_angular": true,
+        "max_angular_speed": 6.0,
+        "time_to_max_angular_speed": 30.0,
+        "death_angular_speed_range": [1.50, 1.50]
+    },
+    "attack": {},
+    "ai": {
+        "attack_target_type_groups": [
+            "heavy_capital",
+            "defense"
+        ],
+        "attack_target_type_groups_to_ignore": [
+            "torpedo_strikecraft"
+        ],
+        "attack_target_type_groups_matching_weapon": "ancients_drone",
+        "auto_follow_target_priority": 2.0
+    },
+    "ai_attack_target": {
+        "attack_priority": 50.0,
+        "is_always_a_threat": true,
+        "attack_target_type": "starbase"
+    },
+    "user_interface": {
+        "can_be_controlled_by_selected_planet": true,
+        "pip_type": "starbase",
+        "can_ever_be_selected": true,
+        "selection_priority": 600,
+        "selection_group_unit_type": "combat_ship",
+        "can_rotate": true,
+        "can_attack": true,
+        "can_show_max_weapon_range_in_tactical_view": true,
+        "can_show_distance_to_plane_line": true
+    },
+    "structure": {
+        "virtual_slot_type": "military",
+        "build_group_id": "military"
+    },
+    "weapons": {
+        "weapons": [
+            {
+                "weapon": "ancients_drone",
+                "mesh_point": "weapon.drone_0",
+                "weapon_position": [-1561.349976, 97.856918, 901.449829],
+                "non_turret_muzzle_positions": [
+                    [-1561.349976, 97.856918, 901.449829]
+                ],
+                "forward": [-0.433013, 0.866025, 0.250],
+                "up": [0.750, 0.50, -0.433013],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                }
+            },
+            {
+                "weapon": "ancients_drone",
+                "mesh_point": "weapon.drone_1",
+                "weapon_position": [-1561.349976, 100.051987, 856.089722],
+                "non_turret_muzzle_positions": [
+                    [-1561.349976, 100.051987, 856.089722]
+                ],
+                "forward": [-0.433013, 0.866025, -0.250],
+                "up": [0.750, 0.50, 0.433013],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                }
+            },
+            {
+                "weapon": "ancients_drone",
+                "mesh_point": "weapon.drone_2",
+                "weapon_position": [-1522.099976, 104.461899, 833.409790],
+                "non_turret_muzzle_positions": [
+                    [-1522.099976, 104.461899, 833.409790]
+                ],
+                "forward": [0.0, 0.866025, -0.50],
+                "up": [-0.0, 0.50, 0.866025],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                }
+            },
+            {
+                "weapon": "ancients_drone",
+                "mesh_point": "weapon.drone_3",
+                "weapon_position": [-1482.800049, 106.386948, 856.089722],
+                "non_turret_muzzle_positions": [
+                    [-1482.800049, 106.386948, 856.089722]
+                ],
+                "forward": [0.433013, 0.866025, -0.250],
+                "up": [-0.750, 0.50, 0.433013],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                }
+            },
+            {
+                "weapon": "ancients_drone",
+                "mesh_point": "weapon.drone_4",
+                "weapon_position": [-1482.800049, 104.461899, 901.449829],
+                "non_turret_muzzle_positions": [
+                    [-1482.800049, 104.461899, 901.449829]
+                ],
+                "forward": [0.433013, 0.866025, 0.250],
+                "up": [-0.750, 0.50, -0.433013],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                }
+            },
+            {
+                "weapon": "ancients_drone",
+                "mesh_point": "weapon.drone_5",
+                "weapon_position": [-1522.099976, 100.051971, 924.129761],
+                "non_turret_muzzle_positions": [
+                    [-1522.099976, 100.051971, 924.129761]
+                ],
+                "forward": [0.0, 0.866025, 0.50],
+                "up": [0.0, 0.50, -0.866025],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                }
+            },
+            {
+                "weapon": "ancients_drone",
+                "mesh_point": "weapon.drone_6",
+                "weapon_position": [-0.003296, 97.856911, -1802.893677],
+                "non_turret_muzzle_positions": [
+                    [-0.003296, 97.856911, -1802.893677]
+                ],
+                "forward": [0.0, 0.866025, -0.50],
+                "up": [-0.0, 0.50, 0.866025],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                }
+            },
+            {
+                "weapon": "ancients_drone",
+                "mesh_point": "weapon.drone_7",
+                "weapon_position": [39.279663, 100.051979, -1780.213501],
+                "non_turret_muzzle_positions": [
+                    [39.279663, 100.051979, -1780.213501]
+                ],
+                "forward": [0.433013, 0.866025, -0.250],
+                "up": [-0.750, 0.50, 0.433013],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                }
+            },
+            {
+                "weapon": "ancients_drone",
+                "mesh_point": "weapon.drone_8",
+                "weapon_position": [39.296021, 104.461891, -1734.882202],
+                "non_turret_muzzle_positions": [
+                    [39.296021, 104.461891, -1734.882202]
+                ],
+                "forward": [0.433012, 0.866026, 0.250],
+                "up": [-0.750, 0.50, -0.433013],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                }
+            },
+            {
+                "weapon": "ancients_drone",
+                "mesh_point": "weapon.drone_9",
+                "weapon_position": [0.004639, 106.386940, -1712.187378],
+                "non_turret_muzzle_positions": [
+                    [0.004639, 106.386940, -1712.187378]
+                ],
+                "forward": [0.0, 0.866025, 0.50],
+                "up": [0.0, 0.50, -0.866025],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                }
+            },
+            {
+                "weapon": "ancients_drone",
+                "mesh_point": "weapon.drone_10",
+                "weapon_position": [-39.278320, 104.461891, -1734.867554],
+                "non_turret_muzzle_positions": [
+                    [-39.278320, 104.461891, -1734.867554]
+                ],
+                "forward": [-0.433013, 0.866025, 0.250],
+                "up": [0.750, 0.50, -0.433012],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                }
+            },
+            {
+                "weapon": "ancients_drone",
+                "mesh_point": "weapon.drone_11",
+                "weapon_position": [-39.269775, 100.051964, -1780.242310],
+                "non_turret_muzzle_positions": [
+                    [-39.269775, 100.051964, -1780.242310]
+                ],
+                "forward": [-0.433013, 0.866025, -0.250],
+                "up": [0.750, 0.50, 0.433013],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                }
+            },
+            {
+                "weapon": "ancients_drone",
+                "mesh_point": "weapon.drone_12",
+                "weapon_position": [1561.353394, 97.856903, 901.444214],
+                "non_turret_muzzle_positions": [
+                    [1561.353394, 97.856903, 901.444214]
+                ],
+                "forward": [0.433012, 0.866025, 0.250],
+                "up": [-0.750, 0.50, -0.433013],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                }
+            },
+            {
+                "weapon": "ancients_drone",
+                "mesh_point": "weapon.drone_13",
+                "weapon_position": [1522.070190, 100.051971, 924.124146],
+                "non_turret_muzzle_positions": [
+                    [1522.070190, 100.051971, 924.124146]
+                ],
+                "forward": [0.0, 0.866025, 0.50],
+                "up": [0.0, 0.50, -0.866025],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                }
+            },
+            {
+                "weapon": "ancients_drone",
+                "mesh_point": "weapon.drone_14",
+                "weapon_position": [1482.803955, 104.461884, 901.472534],
+                "non_turret_muzzle_positions": [
+                    [1482.803955, 104.461884, 901.472534]
+                ],
+                "forward": [-0.433013, 0.866026, 0.250],
+                "up": [0.750, 0.50, -0.433012],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                }
+            },
+            {
+                "weapon": "ancients_drone",
+                "mesh_point": "weapon.drone_15",
+                "weapon_position": [1482.795410, 106.386932, 856.097778],
+                "non_turret_muzzle_positions": [
+                    [1482.795410, 106.386932, 856.097778]
+                ],
+                "forward": [-0.433013, 0.866025, -0.250],
+                "up": [0.750, 0.50, 0.433013],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                }
+            },
+            {
+                "weapon": "ancients_drone",
+                "mesh_point": "weapon.drone_16",
+                "weapon_position": [1522.078491, 104.461884, 833.417847],
+                "non_turret_muzzle_positions": [
+                    [1522.078491, 104.461884, 833.417847]
+                ],
+                "forward": [0.000001, 0.866025, -0.50],
+                "up": [-0.0, 0.50, 0.866025],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                }
+            },
+            {
+                "weapon": "ancients_drone",
+                "mesh_point": "weapon.drone_17",
+                "weapon_position": [1561.369873, 100.051956, 856.112671],
+                "non_turret_muzzle_positions": [
+                    [1561.369873, 100.051956, 856.112671]
+                ],
+                "forward": [0.433013, 0.866025, -0.250],
+                "up": [-0.750, 0.50, 0.433013],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                }
+            },
+            {
+                "weapon": "ancients_pulse_medium",
+                "required_unit_item": "ancients_starbase_unlock_weapon_pd",
+                "mesh_point": "child.turret_ancients_pulse_medium_mount_0",
+                "weapon_position": [-881.764709, 50.713741, 2128.674805],
+                "forward": [-0.382697, -0.0, 0.923874],
+                "up": [0.0, 1.0, 0.0],
+                "yaw_arc": {
+                    "min_angle": -95.0,
+                    "max_angle": 95.0
+                },
+                "pitch_arc": {
+                    "min_angle": -52.0,
+                    "max_angle": 24.0
+                }
+            },
+            {
+                "weapon": "ancients_pulse_medium",
+                "required_unit_item": "ancients_starbase_unlock_weapon_pd",
+                "mesh_point": "child.turret_ancients_pulse_medium_mount_1",
+                "weapon_position": [-1086.122314, 50.713741, 2032.019775],
+                "forward": [-0.471391, -0.0, 0.881924],
+                "up": [0.0, 1.0, 0.0],
+                "yaw_arc": {
+                    "min_angle": -95.0,
+                    "max_angle": 95.0
+                },
+                "pitch_arc": {
+                    "min_angle": -52.0,
+                    "max_angle": 24.0
+                }
+            },
+            {
+                "weapon": "ancients_pulse_medium",
+                "required_unit_item": "ancients_starbase_unlock_weapon_pd",
+                "mesh_point": "child.turret_ancients_pulse_medium_mount_2",
+                "weapon_position": [-1280.089233, 50.713741, 1915.760254],
+                "forward": [-0.555576, -0.0, 0.831466],
+                "up": [0.0, 1.0, 0.0],
+                "yaw_arc": {
+                    "min_angle": -95.0,
+                    "max_angle": 95.0
+                },
+                "pitch_arc": {
+                    "min_angle": -52.0,
+                    "max_angle": 24.0
+                }
+            },
+            {
+                "weapon": "ancients_pulse_medium",
+                "required_unit_item": "ancients_starbase_unlock_weapon_pd",
+                "mesh_point": "child.turret_ancients_pulse_medium_mount_3",
+                "weapon_position": [-1461.694702, 50.713741, 1781.071289],
+                "forward": [-0.634395, -0.0, 0.773009],
+                "up": [0.0, 1.0, 0.0],
+                "yaw_arc": {
+                    "min_angle": -95.0,
+                    "max_angle": 95.0
+                },
+                "pitch_arc": {
+                    "min_angle": -52.0,
+                    "max_angle": 24.0
+                }
+            },
+            {
+                "weapon": "ancients_pulse_medium",
+                "required_unit_item": "ancients_starbase_unlock_weapon_pd",
+                "mesh_point": "child.turret_ancients_pulse_medium_mount_4",
+                "weapon_position": [-1629.229126, 50.713741, 1629.226440],
+                "forward": [-0.707107, -0.0, 0.707107],
+                "up": [0.0, 1.0, 0.0],
+                "yaw_arc": {
+                    "min_angle": -95.0,
+                    "max_angle": 95.0
+                },
+                "pitch_arc": {
+                    "min_angle": -52.0,
+                    "max_angle": 24.0
+                }
+            },
+            {
+                "weapon": "ancients_pulse_medium",
+                "required_unit_item": "ancients_starbase_unlock_weapon_pd",
+                "mesh_point": "child.turret_ancients_pulse_medium_mount_5",
+                "weapon_position": [-1781.086182, 50.713741, 1461.676636],
+                "forward": [-0.773015, -0.0, 0.634388],
+                "up": [0.0, 1.0, 0.0],
+                "yaw_arc": {
+                    "min_angle": -95.0,
+                    "max_angle": 95.0
+                },
+                "pitch_arc": {
+                    "min_angle": -52.0,
+                    "max_angle": 24.0
+                }
+            },
+            {
+                "weapon": "ancients_pulse_medium",
+                "required_unit_item": "ancients_starbase_unlock_weapon_pd",
+                "mesh_point": "child.turret_ancients_pulse_medium_mount_6",
+                "weapon_position": [-1915.780151, 50.713741, 1280.059814],
+                "forward": [-0.831474, -0.0, 0.555563],
+                "up": [0.0, 1.0, 0.0],
+                "yaw_arc": {
+                    "min_angle": -95.0,
+                    "max_angle": 95.0
+                },
+                "pitch_arc": {
+                    "min_angle": -52.0,
+                    "max_angle": 24.0
+                }
+            },
+            {
+                "weapon": "ancients_pulse_medium",
+                "required_unit_item": "ancients_starbase_unlock_weapon_pd",
+                "mesh_point": "child.turret_ancients_pulse_medium_mount_7",
+                "weapon_position": [-2032.023804, 50.713741, 1086.115112],
+                "forward": [-0.881926, -0.0, 0.471389],
+                "up": [0.0, 1.0, 0.0],
+                "yaw_arc": {
+                    "min_angle": -95.0,
+                    "max_angle": 95.0
+                },
+                "pitch_arc": {
+                    "min_angle": -52.0,
+                    "max_angle": 24.0
+                }
+            },
+            {
+                "weapon": "ancients_pulse_medium",
+                "required_unit_item": "ancients_starbase_unlock_weapon_pd",
+                "mesh_point": "child.turret_ancients_pulse_medium_mount_8",
+                "weapon_position": [-2128.697510, 50.713741, 881.710449],
+                "forward": [-0.923883, -0.0, 0.382674],
+                "up": [0.0, 1.0, 0.0],
+                "yaw_arc": {
+                    "min_angle": -95.0,
+                    "max_angle": 95.0
+                },
+                "pitch_arc": {
+                    "min_angle": -52.0,
+                    "max_angle": 24.0
+                }
+            },
+            {
+                "weapon": "ancients_pulse_medium",
+                "required_unit_item": "ancients_starbase_unlock_weapon_pd",
+                "mesh_point": "child.turret_ancients_pulse_medium_mount_9",
+                "weapon_position": [-2204.865479, 50.713741, 668.831055],
+                "forward": [-0.956941, -0.0, 0.290282],
+                "up": [0.0, 1.0, 0.0],
+                "yaw_arc": {
+                    "min_angle": -95.0,
+                    "max_angle": 95.0
+                },
+                "pitch_arc": {
+                    "min_angle": -52.0,
+                    "max_angle": 24.0
+                }
+            },
+            {
+                "weapon": "ancients_pulse_medium",
+                "required_unit_item": "ancients_starbase_unlock_weapon_pd",
+                "mesh_point": "child.turret_ancients_pulse_medium_mount_10",
+                "weapon_position": [-2259.806885, 50.713741, 449.487671],
+                "forward": [-0.980787, -0.0, 0.195084],
+                "up": [0.0, 1.0, 0.0],
+                "yaw_arc": {
+                    "min_angle": -95.0,
+                    "max_angle": 95.0
+                },
+                "pitch_arc": {
+                    "min_angle": -52.0,
+                    "max_angle": 24.0
+                }
+            },
+            {
+                "weapon": "ancients_pulse_medium",
+                "required_unit_item": "ancients_starbase_unlock_weapon_pd",
+                "mesh_point": "child.turret_ancients_pulse_medium_mount_11",
+                "weapon_position": [-2292.981689, 50.713741, 225.835953],
+                "forward": [-0.995185, -0.0, 0.098016],
+                "up": [0.0, 1.0, 0.0],
+                "yaw_arc": {
+                    "min_angle": -95.0,
+                    "max_angle": 95.0
+                },
+                "pitch_arc": {
+                    "min_angle": -52.0,
+                    "max_angle": 24.0
+                }
+            },
+            {
+                "weapon": "ancients_pulse_medium",
+                "required_unit_item": "ancients_starbase_unlock_weapon_pd",
+                "mesh_point": "child.turret_ancients_pulse_medium_mount_12",
+                "weapon_position": [-2304.076172, 50.713741, 0.000748],
+                "forward": [-1.0, -0.0, 0.000001],
+                "up": [0.0, 1.0, 0.0],
+                "yaw_arc": {
+                    "min_angle": -95.0,
+                    "max_angle": 95.0
+                },
+                "pitch_arc": {
+                    "min_angle": -52.0,
+                    "max_angle": 24.0
+                }
+            },
+            {
+                "weapon": "ancients_pulse_medium",
+                "required_unit_item": "ancients_starbase_unlock_weapon_pd",
+                "mesh_point": "child.turret_ancients_pulse_medium_mount_13",
+                "weapon_position": [-2292.980713, 50.713741, -225.845398],
+                "forward": [-0.995185, 0.0, -0.098020],
+                "up": [0.0, 1.0, 0.0],
+                "yaw_arc": {
+                    "min_angle": -95.0,
+                    "max_angle": 95.0
+                },
+                "pitch_arc": {
+                    "min_angle": -52.0,
+                    "max_angle": 24.0
+                }
+            },
+            {
+                "weapon": "ancients_pulse_medium",
+                "required_unit_item": "ancients_starbase_unlock_weapon_pd",
+                "mesh_point": "child.turret_ancients_pulse_medium_mount_14",
+                "weapon_position": [740.626221, -45.180088, 2181.797119],
+                "forward": [0.321442, -0.0, 0.946929],
+                "up": [-0.0, -1.0, 0.0],
+                "yaw_arc": {
+                    "min_angle": -95.0,
+                    "max_angle": 95.0
+                },
+                "pitch_arc": {
+                    "min_angle": -52.0,
+                    "max_angle": 24.0
+                }
+            },
+            {
+                "weapon": "ancients_pulse_medium",
+                "required_unit_item": "ancients_starbase_unlock_weapon_pd",
+                "mesh_point": "child.turret_ancients_pulse_medium_mount_15",
+                "weapon_position": [523.197144, -45.180088, 2243.887451],
+                "forward": [0.227075, -0.0, 0.973877],
+                "up": [-0.0, -1.0, 0.0],
+                "yaw_arc": {
+                    "min_angle": -95.0,
+                    "max_angle": 95.0
+                },
+                "pitch_arc": {
+                    "min_angle": -52.0,
+                    "max_angle": 24.0
+                }
+            },
+            {
+                "weapon": "ancients_pulse_medium",
+                "required_unit_item": "ancients_starbase_unlock_weapon_pd",
+                "mesh_point": "child.turret_ancients_pulse_medium_mount_16",
+                "weapon_position": [300.754089, -45.180088, 2284.362793],
+                "forward": [0.130532, -0.0, 0.991444],
+                "up": [-0.000001, -1.0, 0.0],
+                "yaw_arc": {
+                    "min_angle": -95.0,
+                    "max_angle": 95.0
+                },
+                "pitch_arc": {
+                    "min_angle": -52.0,
+                    "max_angle": 24.0
+                }
+            },
+            {
+                "weapon": "ancients_pulse_medium",
+                "required_unit_item": "ancients_starbase_unlock_weapon_pd",
+                "mesh_point": "child.turret_ancients_pulse_medium_mount_17",
+                "weapon_position": [-0.001740, -45.180088, 2304.076172],
+                "forward": [0.0, 0.0, 1.0],
+                "up": [-0.000001, -1.0, -0.0],
+                "yaw_arc": {
+                    "min_angle": -95.0,
+                    "max_angle": 95.0
+                },
+                "pitch_arc": {
+                    "min_angle": -52.0,
+                    "max_angle": 24.0
+                }
+            },
+            {
+                "weapon": "ancients_pulse_medium",
+                "required_unit_item": "ancients_starbase_unlock_weapon_pd",
+                "mesh_point": "child.turret_ancients_pulse_medium_mount_18",
+                "weapon_position": [-225.807434, -45.180088, 2292.984375],
+                "forward": [-0.098003, 0.0, 0.995186],
+                "up": [-0.000001, -1.0, -0.0],
+                "yaw_arc": {
+                    "min_angle": -95.0,
+                    "max_angle": 95.0
+                },
+                "pitch_arc": {
+                    "min_angle": -52.0,
+                    "max_angle": 24.0
+                }
+            },
+            {
+                "weapon": "ancients_pulse_medium",
+                "required_unit_item": "ancients_starbase_unlock_weapon_pd",
+                "mesh_point": "child.turret_ancients_pulse_medium_mount_19",
+                "weapon_position": [-449.516693, -45.180088, 2259.801270],
+                "forward": [-0.195096, 0.0, 0.980784],
+                "up": [-0.000001, -1.0, -0.0],
+                "yaw_arc": {
+                    "min_angle": -95.0,
+                    "max_angle": 95.0
+                },
+                "pitch_arc": {
+                    "min_angle": -52.0,
+                    "max_angle": 24.0
+                }
+            },
+            {
+                "weapon": "ancients_pulse_medium",
+                "required_unit_item": "ancients_starbase_unlock_weapon_pd",
+                "mesh_point": "child.turret_ancients_pulse_medium_mount_20",
+                "weapon_position": [-668.838379, -45.180088, 2204.863525],
+                "forward": [-0.290284, 0.0, 0.956940],
+                "up": [-0.000001, -1.0, -0.0],
+                "yaw_arc": {
+                    "min_angle": -95.0,
+                    "max_angle": 95.0
+                },
+                "pitch_arc": {
+                    "min_angle": -52.0,
+                    "max_angle": 24.0
+                }
+            },
+            {
+                "weapon": "ancients_pulse_medium",
+                "required_unit_item": "ancients_starbase_unlock_weapon_pd",
+                "mesh_point": "child.turret_ancients_pulse_medium_mount_21",
+                "weapon_position": [-881.766235, -45.180088, 2128.674805],
+                "forward": [-0.382698, 0.0, 0.923873],
+                "up": [-0.000002, -1.0, -0.0],
+                "yaw_arc": {
+                    "min_angle": -95.0,
+                    "max_angle": 95.0
+                },
+                "pitch_arc": {
+                    "min_angle": -52.0,
+                    "max_angle": 24.0
+                }
+            },
+            {
+                "weapon": "ancients_pulse_medium",
+                "required_unit_item": "ancients_starbase_unlock_weapon_pd",
+                "mesh_point": "child.turret_ancients_pulse_medium_mount_22",
+                "weapon_position": [-1402.604004, 50.713737, -1827.968262],
+                "forward": [-0.608750, 0.0, -0.793362],
+                "up": [0.0, 1.0, 0.0],
+                "yaw_arc": {
+                    "min_angle": -95.0,
+                    "max_angle": 95.0
+                },
+                "pitch_arc": {
+                    "min_angle": -52.0,
+                    "max_angle": 24.0
+                }
+            },
+            {
+                "weapon": "ancients_pulse_medium",
+                "required_unit_item": "ancients_starbase_unlock_weapon_pd",
+                "mesh_point": "child.turret_ancients_pulse_medium_mount_23",
+                "weapon_position": [-1216.719482, 50.713737, -1956.619385],
+                "forward": [-0.528073, 0.0, -0.849199],
+                "up": [0.0, 1.0, 0.0],
+                "yaw_arc": {
+                    "min_angle": -95.0,
+                    "max_angle": 95.0
+                },
+                "pitch_arc": {
+                    "min_angle": -52.0,
+                    "max_angle": 24.0
+                }
+            },
+            {
+                "weapon": "ancients_pulse_medium",
+                "required_unit_item": "ancients_starbase_unlock_weapon_pd",
+                "mesh_point": "child.turret_ancients_pulse_medium_mount_24",
+                "weapon_position": [-1019.052368, 50.713737, -2066.469971],
+                "forward": [-0.442283, 0.0, -0.896876],
+                "up": [0.0, 1.0, 0.0],
+                "yaw_arc": {
+                    "min_angle": -95.0,
+                    "max_angle": 95.0
+                },
+                "pitch_arc": {
+                    "min_angle": -52.0,
+                    "max_angle": 24.0
+                }
+            },
+            {
+                "weapon": "ancients_pulse_medium",
+                "required_unit_item": "ancients_starbase_unlock_weapon_pd",
+                "mesh_point": "child.turret_ancients_pulse_medium_mount_25",
+                "weapon_position": [-811.605591, 50.713737, -2156.400391],
+                "forward": [-0.352248, 0.0, -0.935907],
+                "up": [0.0, 1.0, 0.0],
+                "yaw_arc": {
+                    "min_angle": -95.0,
+                    "max_angle": 95.0
+                },
+                "pitch_arc": {
+                    "min_angle": -52.0,
+                    "max_angle": 24.0
+                }
+            },
+            {
+                "weapon": "ancients_pulse_medium",
+                "required_unit_item": "ancients_starbase_unlock_weapon_pd",
+                "mesh_point": "child.turret_ancients_pulse_medium_mount_26",
+                "weapon_position": [-596.336792, 50.713737, -2225.566895],
+                "forward": [-0.258819, 0.0, -0.965926],
+                "up": [0.0, 1.0, 0.0],
+                "yaw_arc": {
+                    "min_angle": -95.0,
+                    "max_angle": 95.0
+                },
+                "pitch_arc": {
+                    "min_angle": -52.0,
+                    "max_angle": 24.0
+                }
+            },
+            {
+                "weapon": "ancients_pulse_medium",
+                "required_unit_item": "ancients_starbase_unlock_weapon_pd",
+                "mesh_point": "child.turret_ancients_pulse_medium_mount_27",
+                "weapon_position": [-375.305908, 50.713737, -2273.304199],
+                "forward": [-0.162888, 0.0, -0.986645],
+                "up": [0.0, 1.0, 0.0],
+                "yaw_arc": {
+                    "min_angle": -95.0,
+                    "max_angle": 95.0
+                },
+                "pitch_arc": {
+                    "min_angle": -52.0,
+                    "max_angle": 24.0
+                }
+            },
+            {
+                "weapon": "ancients_pulse_medium",
+                "required_unit_item": "ancients_starbase_unlock_weapon_pd",
+                "mesh_point": "child.turret_ancients_pulse_medium_mount_28",
+                "weapon_position": [-150.674194, 50.713737, -2299.144287],
+                "forward": [-0.065395, 0.0, -0.997859],
+                "up": [0.0, 1.0, 0.0],
+                "yaw_arc": {
+                    "min_angle": -95.0,
+                    "max_angle": 95.0
+                },
+                "pitch_arc": {
+                    "min_angle": -52.0,
+                    "max_angle": 24.0
+                }
+            },
+            {
+                "weapon": "ancients_pulse_medium",
+                "required_unit_item": "ancients_starbase_unlock_weapon_pd",
+                "mesh_point": "child.turret_ancients_pulse_medium_mount_29",
+                "weapon_position": [75.408813, 50.713737, -2302.841797],
+                "forward": [0.032728, 0.0, -0.999464],
+                "up": [0.0, 1.0, 0.0],
+                "yaw_arc": {
+                    "min_angle": -95.0,
+                    "max_angle": 95.0
+                },
+                "pitch_arc": {
+                    "min_angle": -52.0,
+                    "max_angle": 24.0
+                }
+            },
+            {
+                "weapon": "ancients_pulse_medium",
+                "required_unit_item": "ancients_starbase_unlock_weapon_pd",
+                "mesh_point": "child.turret_ancients_pulse_medium_mount_30",
+                "weapon_position": [300.765381, 50.713737, -2284.361328],
+                "forward": [0.130536, 0.0, -0.991444],
+                "up": [0.0, 1.0, 0.0],
+                "yaw_arc": {
+                    "min_angle": -95.0,
+                    "max_angle": 95.0
+                },
+                "pitch_arc": {
+                    "min_angle": -52.0,
+                    "max_angle": 24.0
+                }
+            },
+            {
+                "weapon": "ancients_pulse_medium",
+                "required_unit_item": "ancients_starbase_unlock_weapon_pd",
+                "mesh_point": "child.turret_ancients_pulse_medium_mount_31",
+                "weapon_position": [523.208252, 50.713737, -2243.885010],
+                "forward": [0.227079, 0.0, -0.973876],
+                "up": [0.0, 1.0, 0.0],
+                "yaw_arc": {
+                    "min_angle": -95.0,
+                    "max_angle": 95.0
+                },
+                "pitch_arc": {
+                    "min_angle": -52.0,
+                    "max_angle": 24.0
+                }
+            },
+            {
+                "weapon": "ancients_pulse_medium",
+                "required_unit_item": "ancients_starbase_unlock_weapon_pd",
+                "mesh_point": "child.turret_ancients_pulse_medium_mount_32",
+                "weapon_position": [740.635986, 50.713737, -2181.793945],
+                "forward": [0.321446, 0.0, -0.946928],
+                "up": [0.0, 1.0, 0.0],
+                "yaw_arc": {
+                    "min_angle": -95.0,
+                    "max_angle": 95.0
+                },
+                "pitch_arc": {
+                    "min_angle": -52.0,
+                    "max_angle": 24.0
+                }
+            },
+            {
+                "weapon": "ancients_pulse_medium",
+                "required_unit_item": "ancients_starbase_unlock_weapon_pd",
+                "mesh_point": "child.turret_ancients_pulse_medium_mount_33",
+                "weapon_position": [950.911377, 50.713737, -2098.698486],
+                "forward": [0.412708, 0.0, -0.910863],
+                "up": [0.0, 1.0, 0.0],
+                "yaw_arc": {
+                    "min_angle": -95.0,
+                    "max_angle": 95.0
+                },
+                "pitch_arc": {
+                    "min_angle": -52.0,
+                    "max_angle": 24.0
+                }
+            },
+            {
+                "weapon": "ancients_pulse_medium",
+                "required_unit_item": "ancients_starbase_unlock_weapon_pd",
+                "mesh_point": "child.turret_ancients_pulse_medium_mount_34",
+                "weapon_position": [1152.037598, 50.713737, -1995.388794],
+                "forward": [0.50, 0.0, -0.866026],
+                "up": [0.0, 1.0, 0.0],
+                "yaw_arc": {
+                    "min_angle": -95.0,
+                    "max_angle": 95.0
+                },
+                "pitch_arc": {
+                    "min_angle": -52.0,
+                    "max_angle": 24.0
+                }
+            },
+            {
+                "weapon": "ancients_pulse_medium",
+                "required_unit_item": "ancients_starbase_unlock_weapon_pd",
+                "mesh_point": "child.turret_ancients_pulse_medium_mount_35",
+                "weapon_position": [1342.078369, 50.713737, -1872.856934],
+                "forward": [0.582480, 0.0, -0.812845],
+                "up": [0.0, 1.0, 0.0],
+                "yaw_arc": {
+                    "min_angle": -95.0,
+                    "max_angle": 95.0
+                },
+                "pitch_arc": {
+                    "min_angle": -52.0,
+                    "max_angle": 24.0
+                }
+            },
+            {
+                "weapon": "ancients_pulse_medium",
+                "required_unit_item": "ancients_starbase_unlock_weapon_pd",
+                "mesh_point": "child.turret_ancients_pulse_medium_mount_36",
+                "weapon_position": [-2259.804932, -45.180084, -449.497559],
+                "forward": [-0.980786, 0.0, -0.195088],
+                "up": [-0.0, -1.0, -0.0],
+                "yaw_arc": {
+                    "min_angle": -95.0,
+                    "max_angle": 95.0
+                },
+                "pitch_arc": {
+                    "min_angle": -52.0,
+                    "max_angle": 24.0
+                }
+            },
+            {
+                "weapon": "ancients_pulse_medium",
+                "required_unit_item": "ancients_starbase_unlock_weapon_pd",
+                "mesh_point": "child.turret_ancients_pulse_medium_mount_37",
+                "weapon_position": [-2204.861816, -45.180084, -668.841797],
+                "forward": [-0.956940, 0.0, -0.290286],
+                "up": [-0.0, -1.0, -0.0],
+                "yaw_arc": {
+                    "min_angle": -95.0,
+                    "max_angle": 95.0
+                },
+                "pitch_arc": {
+                    "min_angle": -52.0,
+                    "max_angle": 24.0
+                }
+            },
+            {
+                "weapon": "ancients_pulse_medium",
+                "required_unit_item": "ancients_starbase_unlock_weapon_pd",
+                "mesh_point": "child.turret_ancients_pulse_medium_mount_38",
+                "weapon_position": [-2128.693115, -45.180084, -881.720703],
+                "forward": [-0.923882, 0.0, -0.382678],
+                "up": [-0.0, -1.0, -0.0],
+                "yaw_arc": {
+                    "min_angle": -95.0,
+                    "max_angle": 95.0
+                },
+                "pitch_arc": {
+                    "min_angle": -52.0,
+                    "max_angle": 24.0
+                }
+            },
+            {
+                "weapon": "ancients_pulse_medium",
+                "required_unit_item": "ancients_starbase_unlock_weapon_pd",
+                "mesh_point": "child.turret_ancients_pulse_medium_mount_39",
+                "weapon_position": [-1995.387573, -45.180084, -1152.039551],
+                "forward": [-0.866025, 0.0, -0.50],
+                "up": [-0.0, -1.0, -0.0],
+                "yaw_arc": {
+                    "min_angle": -95.0,
+                    "max_angle": 95.0
+                },
+                "pitch_arc": {
+                    "min_angle": -52.0,
+                    "max_angle": 24.0
+                }
+            },
+            {
+                "weapon": "ancients_pulse_medium",
+                "required_unit_item": "ancients_starbase_unlock_weapon_pd",
+                "mesh_point": "child.turret_ancients_pulse_medium_mount_40",
+                "weapon_position": [-1872.878906, -45.180084, -1342.047363],
+                "forward": [-0.812855, 0.000001, -0.582466],
+                "up": [-0.0, -1.0, -0.000001],
+                "yaw_arc": {
+                    "min_angle": -95.0,
+                    "max_angle": 95.0
+                },
+                "pitch_arc": {
+                    "min_angle": -52.0,
+                    "max_angle": 24.0
+                }
+            },
+            {
+                "weapon": "ancients_pulse_medium",
+                "required_unit_item": "ancients_starbase_unlock_weapon_pd",
+                "mesh_point": "child.turret_ancients_pulse_medium_mount_41",
+                "weapon_position": [-1732.286865, -45.180084, -1519.193604],
+                "forward": [-0.751836, 0.000001, -0.659350],
+                "up": [-0.0, -1.0, -0.000001],
+                "yaw_arc": {
+                    "min_angle": -95.0,
+                    "max_angle": 95.0
+                },
+                "pitch_arc": {
+                    "min_angle": -52.0,
+                    "max_angle": 24.0
+                }
+            },
+            {
+                "weapon": "ancients_pulse_medium",
+                "required_unit_item": "ancients_starbase_unlock_weapon_pd",
+                "mesh_point": "child.turret_ancients_pulse_medium_mount_42",
+                "weapon_position": [-1575.048584, -45.180084, -1681.662842],
+                "forward": [-0.683592, 0.000001, -0.729864],
+                "up": [-0.0, -1.0, -0.000001],
+                "yaw_arc": {
+                    "min_angle": -95.0,
+                    "max_angle": 95.0
+                },
+                "pitch_arc": {
+                    "min_angle": -52.0,
+                    "max_angle": 24.0
+                }
+            },
+            {
+                "weapon": "ancients_pulse_medium",
+                "required_unit_item": "ancients_starbase_unlock_weapon_pd",
+                "mesh_point": "child.turret_ancients_pulse_medium_mount_43",
+                "weapon_position": [-1402.603271, -45.180084, -1827.969482],
+                "forward": [-0.608749, 0.000001, -0.793363],
+                "up": [-0.0, -1.0, -0.000001],
+                "yaw_arc": {
+                    "min_angle": -95.0,
+                    "max_angle": 95.0
+                },
+                "pitch_arc": {
+                    "min_angle": -52.0,
+                    "max_angle": 24.0
+                }
+            },
+            {
+                "weapon": "ancients_pulse_medium",
+                "required_unit_item": "ancients_starbase_unlock_weapon_pd",
+                "mesh_point": "child.turret_ancients_pulse_medium_mount_44",
+                "weapon_position": [2284.368896, 50.713734, -300.706421],
+                "forward": [0.991447, 0.0, -0.130511],
+                "up": [0.0, 1.0, 0.0],
+                "yaw_arc": {
+                    "min_angle": -95.0,
+                    "max_angle": 95.0
+                },
+                "pitch_arc": {
+                    "min_angle": -52.0,
+                    "max_angle": 24.0
+                }
+            },
+            {
+                "weapon": "ancients_pulse_medium",
+                "required_unit_item": "ancients_starbase_unlock_weapon_pd",
+                "mesh_point": "child.turret_ancients_pulse_medium_mount_45",
+                "weapon_position": [2302.841797, 50.713734, -75.400146],
+                "forward": [0.999464, 0.0, -0.032725],
+                "up": [0.0, 1.0, 0.0],
+                "yaw_arc": {
+                    "min_angle": -95.0,
+                    "max_angle": 95.0
+                },
+                "pitch_arc": {
+                    "min_angle": -52.0,
+                    "max_angle": 24.0
+                }
+            },
+            {
+                "weapon": "ancients_pulse_medium",
+                "required_unit_item": "ancients_starbase_unlock_weapon_pd",
+                "mesh_point": "child.turret_ancients_pulse_medium_mount_46",
+                "weapon_position": [2299.141602, 50.713734, 150.709961],
+                "forward": [0.997859, 0.0, 0.065410],
+                "up": [0.0, 1.0, 0.0],
+                "yaw_arc": {
+                    "min_angle": -95.0,
+                    "max_angle": 95.0
+                },
+                "pitch_arc": {
+                    "min_angle": -52.0,
+                    "max_angle": 24.0
+                }
+            },
+            {
+                "weapon": "ancients_pulse_medium",
+                "required_unit_item": "ancients_starbase_unlock_weapon_pd",
+                "mesh_point": "child.turret_ancients_pulse_medium_mount_47",
+                "weapon_position": [2273.300293, 50.713734, 375.329346],
+                "forward": [0.986643, 0.0, 0.162897],
+                "up": [0.0, 1.0, 0.0],
+                "yaw_arc": {
+                    "min_angle": -95.0,
+                    "max_angle": 95.0
+                },
+                "pitch_arc": {
+                    "min_angle": -52.0,
+                    "max_angle": 24.0
+                }
+            },
+            {
+                "weapon": "ancients_pulse_medium",
+                "required_unit_item": "ancients_starbase_unlock_weapon_pd",
+                "mesh_point": "child.turret_ancients_pulse_medium_mount_48",
+                "weapon_position": [2225.565918, 50.713734, 596.340820],
+                "forward": [0.965926, 0.0, 0.258819],
+                "up": [0.0, 1.0, 0.0],
+                "yaw_arc": {
+                    "min_angle": -95.0,
+                    "max_angle": 95.0
+                },
+                "pitch_arc": {
+                    "min_angle": -52.0,
+                    "max_angle": 24.0
+                }
+            },
+            {
+                "weapon": "ancients_pulse_medium",
+                "required_unit_item": "ancients_starbase_unlock_weapon_pd",
+                "mesh_point": "child.turret_ancients_pulse_medium_mount_49",
+                "weapon_position": [2156.392090, 50.713734, 811.627930],
+                "forward": [0.935903, 0.0, 0.352257],
+                "up": [0.0, 1.0, 0.0],
+                "yaw_arc": {
+                    "min_angle": -95.0,
+                    "max_angle": 95.0
+                },
+                "pitch_arc": {
+                    "min_angle": -52.0,
+                    "max_angle": 24.0
+                }
+            },
+            {
+                "weapon": "ancients_pulse_medium",
+                "required_unit_item": "ancients_starbase_unlock_weapon_pd",
+                "mesh_point": "child.turret_ancients_pulse_medium_mount_50",
+                "weapon_position": [2066.454102, 50.713734, 1019.084717],
+                "forward": [0.896869, 0.0, 0.442296],
+                "up": [0.0, 1.0, 0.0],
+                "yaw_arc": {
+                    "min_angle": -95.0,
+                    "max_angle": 95.0
+                },
+                "pitch_arc": {
+                    "min_angle": -52.0,
+                    "max_angle": 24.0
+                }
+            },
+            {
+                "weapon": "ancients_pulse_medium",
+                "required_unit_item": "ancients_starbase_unlock_weapon_pd",
+                "mesh_point": "child.turret_ancients_pulse_medium_mount_51",
+                "weapon_position": [1956.614990, 50.713734, 1216.727051],
+                "forward": [0.849197, 0.0, 0.528076],
+                "up": [0.0, 1.0, 0.0],
+                "yaw_arc": {
+                    "min_angle": -95.0,
+                    "max_angle": 95.0
+                },
+                "pitch_arc": {
+                    "min_angle": -52.0,
+                    "max_angle": 24.0
+                }
+            },
+            {
+                "weapon": "ancients_pulse_medium",
+                "required_unit_item": "ancients_starbase_unlock_weapon_pd",
+                "mesh_point": "child.turret_ancients_pulse_medium_mount_52",
+                "weapon_position": [1827.932251, 50.713734, 1402.651367],
+                "forward": [0.793347, 0.0, 0.608769],
+                "up": [0.0, 1.0, 0.0],
+                "yaw_arc": {
+                    "min_angle": -95.0,
+                    "max_angle": 95.0
+                },
+                "pitch_arc": {
+                    "min_angle": -52.0,
+                    "max_angle": 24.0
+                }
+            },
+            {
+                "weapon": "ancients_pulse_medium",
+                "required_unit_item": "ancients_starbase_unlock_weapon_pd",
+                "mesh_point": "child.turret_ancients_pulse_medium_mount_53",
+                "weapon_position": [1681.657227, 50.713734, 1575.054199],
+                "forward": [0.729862, 0.0, 0.683595],
+                "up": [0.0, 1.0, 0.0],
+                "yaw_arc": {
+                    "min_angle": -95.0,
+                    "max_angle": 95.0
+                },
+                "pitch_arc": {
+                    "min_angle": -52.0,
+                    "max_angle": 24.0
+                }
+            },
+            {
+                "weapon": "ancients_pulse_medium",
+                "required_unit_item": "ancients_starbase_unlock_weapon_pd",
+                "mesh_point": "child.turret_ancients_pulse_medium_mount_54",
+                "weapon_position": [1519.170898, 50.713734, 1732.306641],
+                "forward": [0.659341, 0.0, 0.751844],
+                "up": [0.0, 1.0, 0.0],
+                "yaw_arc": {
+                    "min_angle": -95.0,
+                    "max_angle": 95.0
+                },
+                "pitch_arc": {
+                    "min_angle": -52.0,
+                    "max_angle": 24.0
+                }
+            },
+            {
+                "weapon": "ancients_pulse_medium",
+                "required_unit_item": "ancients_starbase_unlock_weapon_pd",
+                "mesh_point": "child.turret_ancients_pulse_medium_mount_55",
+                "weapon_position": [1342.070312, 50.713734, 1872.862793],
+                "forward": [0.582477, 0.0, 0.812847],
+                "up": [0.0, 1.0, 0.0],
+                "yaw_arc": {
+                    "min_angle": -95.0,
+                    "max_angle": 95.0
+                },
+                "pitch_arc": {
+                    "min_angle": -52.0,
+                    "max_angle": 24.0
+                }
+            },
+            {
+                "weapon": "ancients_pulse_medium",
+                "required_unit_item": "ancients_starbase_unlock_weapon_pd",
+                "mesh_point": "child.turret_ancients_pulse_medium_mount_56",
+                "weapon_position": [1152.038574, 50.713734, 1995.388306],
+                "forward": [0.50, 0.0, 0.866025],
+                "up": [0.0, 1.0, 0.0],
+                "yaw_arc": {
+                    "min_angle": -95.0,
+                    "max_angle": 95.0
+                },
+                "pitch_arc": {
+                    "min_angle": -52.0,
+                    "max_angle": 24.0
+                }
+            },
+            {
+                "weapon": "ancients_pulse_medium",
+                "required_unit_item": "ancients_starbase_unlock_weapon_pd",
+                "mesh_point": "child.turret_ancients_pulse_medium_mount_57",
+                "weapon_position": [950.902405, 50.713734, 2098.702637],
+                "forward": [0.412704, 0.0, 0.910865],
+                "up": [0.0, 1.0, 0.0],
+                "yaw_arc": {
+                    "min_angle": -95.0,
+                    "max_angle": 95.0
+                },
+                "pitch_arc": {
+                    "min_angle": -52.0,
+                    "max_angle": 24.0
+                }
+            },
+            {
+                "weapon": "ancients_pulse_medium",
+                "required_unit_item": "ancients_starbase_unlock_weapon_pd",
+                "mesh_point": "child.turret_ancients_pulse_medium_mount_58",
+                "weapon_position": [1519.178955, -45.180080, -1732.299683],
+                "forward": [0.659344, -0.0, -0.751842],
+                "up": [-0.0, -1.0, 0.0],
+                "yaw_arc": {
+                    "min_angle": -95.0,
+                    "max_angle": 95.0
+                },
+                "pitch_arc": {
+                    "min_angle": -52.0,
+                    "max_angle": 24.0
+                }
+            },
+            {
+                "weapon": "ancients_pulse_medium",
+                "required_unit_item": "ancients_starbase_unlock_weapon_pd",
+                "mesh_point": "child.turret_ancients_pulse_medium_mount_59",
+                "weapon_position": [1681.665039, -45.180080, -1575.045410],
+                "forward": [0.729865, -0.0, -0.683591],
+                "up": [-0.0, -1.0, 0.0],
+                "yaw_arc": {
+                    "min_angle": -95.0,
+                    "max_angle": 95.0
+                },
+                "pitch_arc": {
+                    "min_angle": -52.0,
+                    "max_angle": 24.0
+                }
+            },
+            {
+                "weapon": "ancients_pulse_medium",
+                "required_unit_item": "ancients_starbase_unlock_weapon_pd",
+                "mesh_point": "child.turret_ancients_pulse_medium_mount_60",
+                "weapon_position": [1827.939209, -45.180080, -1402.641846],
+                "forward": [0.793350, -0.0, -0.608766],
+                "up": [-0.0, -1.0, 0.0],
+                "yaw_arc": {
+                    "min_angle": -95.0,
+                    "max_angle": 95.0
+                },
+                "pitch_arc": {
+                    "min_angle": -52.0,
+                    "max_angle": 24.0
+                }
+            },
+            {
+                "weapon": "ancients_pulse_medium",
+                "required_unit_item": "ancients_starbase_unlock_weapon_pd",
+                "mesh_point": "child.turret_ancients_pulse_medium_mount_61",
+                "weapon_position": [1995.389282, -45.180080, -1152.036377],
+                "forward": [0.866026, -0.000001, -0.50],
+                "up": [-0.0, -1.0, 0.000001],
+                "yaw_arc": {
+                    "min_angle": -95.0,
+                    "max_angle": 95.0
+                },
+                "pitch_arc": {
+                    "min_angle": -52.0,
+                    "max_angle": 24.0
+                }
+            },
+            {
+                "weapon": "ancients_pulse_medium",
+                "required_unit_item": "ancients_starbase_unlock_weapon_pd",
+                "mesh_point": "child.turret_ancients_pulse_medium_mount_62",
+                "weapon_position": [2098.686523, -45.180080, -950.936951],
+                "forward": [0.910858, -0.000001, -0.412720],
+                "up": [-0.0, -1.0, 0.000001],
+                "yaw_arc": {
+                    "min_angle": -95.0,
+                    "max_angle": 95.0
+                },
+                "pitch_arc": {
+                    "min_angle": -52.0,
+                    "max_angle": 24.0
+                }
+            },
+            {
+                "weapon": "ancients_pulse_medium",
+                "required_unit_item": "ancients_starbase_unlock_weapon_pd",
+                "mesh_point": "child.turret_ancients_pulse_medium_mount_63",
+                "weapon_position": [2181.803711, -45.180080, -740.607483],
+                "forward": [0.946932, -0.000001, -0.321434],
+                "up": [-0.000001, -1.0, 0.000001],
+                "yaw_arc": {
+                    "min_angle": -95.0,
+                    "max_angle": 95.0
+                },
+                "pitch_arc": {
+                    "min_angle": -52.0,
+                    "max_angle": 24.0
+                }
+            },
+            {
+                "weapon": "ancients_pulse_medium",
+                "required_unit_item": "ancients_starbase_unlock_weapon_pd",
+                "mesh_point": "child.turret_ancients_pulse_medium_mount_64",
+                "weapon_position": [2243.887207, -45.180080, -523.200562],
+                "forward": [0.973877, -0.000001, -0.227076],
+                "up": [-0.000001, -1.0, 0.000001],
+                "yaw_arc": {
+                    "min_angle": -95.0,
+                    "max_angle": 95.0
+                },
+                "pitch_arc": {
+                    "min_angle": -52.0,
+                    "max_angle": 24.0
+                }
+            },
+            {
+                "weapon": "ancients_pulse_medium",
+                "required_unit_item": "ancients_starbase_unlock_weapon_pd",
+                "mesh_point": "child.turret_ancients_pulse_medium_mount_65",
+                "weapon_position": [2284.369629, -45.180080, -300.70520],
+                "forward": [0.991447, -0.000001, -0.130511],
+                "up": [-0.000001, -1.0, 0.000001],
+                "yaw_arc": {
+                    "min_angle": -95.0,
+                    "max_angle": 95.0
+                },
+                "pitch_arc": {
+                    "min_angle": -52.0,
+                    "max_angle": 24.0
+                }
+            }
+        ],
+        "max_range_weapon_index": 0
+    },
+    "formation": {
+        "leader_priority": 3,
+        "offsets_per_formation_type": {
+            "ships_and_structures": {
+                "rank": 5,
+                "group": 5
+            }
+        }
+    },
+    "spawn_debris": {
+        "spawn_debris_time": 6.50,
+        "generic_group_name": "trader",
+        "generic_counts": {
+            "small_debris": [20, 24],
+            "large_debris": [10, 12]
+        },
+        "custom_debris": [
+            {
+                "unit": "trader_starbase_debris_front",
+                "basis": {
+                    "position": [-450.0, -380.0, -488.285004],
+                    "rotation": [-0.0, 0.0, 1.0, 0.0, 1.0, 0.0, -1.0, 0.0, -0.0]
+                }
+            },
+            {
+                "unit": "trader_starbase_debris_mid",
+                "basis": {
+                    "position": [-100.0, 600.171997, 460.828003],
+                    "rotation": [1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0]
+                }
+            },
+            {
+                "unit": "trader_starbase_debris_back",
+                "basis": {
+                    "position": [800.0, 400.0, -950.0],
+                    "rotation": [1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0]
+                }
+            }
+        ],
+        "spawn_loot": {
+            "loot_unit": "ship_loot_trader",
+            "loot_name": "ancients_starbase_loot_name",
+            "loot_level": 1,
+            "experience_given": 500.0,
+            "exotics": [
+                {
+                    "bundles": [
+                        {
+                            "types": [
+                                "defense"
+                            ],
+                            "counts": [1, 1]
+                        }
+                    ],
+                    "weight": 1.0
+                }
+            ],
+            "assets": {
+                "metal": [200.0, 400.0],
+                "crystal": [200.0, 400.0]
+            }
+        }
+    },
+    "health": {
+        "release_time_after_death": 60.0,
+        "can_collide_duration_after_death": 6.0,
+        "durability": 1000.0,
+        "levels": [
+            {
+                "max_hull_points": 9000.0,
+                "hull_point_restore_rate": 10.0,
+                "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "hull_crippled_percentage": 1.0,
+                "max_armor_points": 4800.0,
+                "armor_point_restore_rate": 6.0,
+                "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "armor_strength": 150.0,
+                "max_shield_points": 12000.0,
+                "shield_point_restore_rate": 12.0,
+                "shield_burst_restore": {
+                    "cooldown_duration": 45.0,
+                    "restore_percentage": 0.50
+                },
+                "experience_given_on_death": 4000.0
+            }
+        ]
+    },
+    "antimatter": {
+        "max_antimatter": 500.0,
+        "antimatter_restore_rate": 1.50
+    },
+    "unit_factory": {
+        "build_kinds": [
+            "corvette",
+            "frigate"
+        ],
+        "default_rally_point_offset": [0.0, 0.0, 2500.0],
+        "required_mutation": "mobile_unit_factory_enabled",
+        "base_build_point": {
+            "position": [0.0, -209.417511, -1153.845947],
+            "rotation": [-1.0, 0.0, -0.0, 0.0, 1.0, 0.0, 0.0, 0.0, -1.0]
+        }
+    },
+    "build": {
+        "build_time": 210.0,
+        "price": {
+            "credits": 4000.0,
+            "metal": 1200.0,
+            "crystal": 800.0
+        },
+        "exotic_price": [
+            {
+                "exotic_type": "defense",
+                "count": 2
+            }
+        ],
+        "prerequisites": [
+            [
+                "ancients_research_unlock_starbase"
+            ]
+        ],
+        "build_kind": "starbase",
+        "build_radius": 3268.547119,
+        "self_build_time_gravity_well_scalars": {
+            "enemy": [
+                {
+                    "value": 2.50
+                }
+            ],
+            "neutral": [
+                {
+                    "value": 1.0
+                }
+            ]
+        },
+        "can_update_build_progress_by_default": true,
+        "build_group_id": "starbase"
+    },
+    "carrier": {
+        "base_max_squadron_capacity": 3,
+        "strikecraft_kinds": [
+            "bomber"
+        ],
+        "launch_destination_formation": "trader_starbase_strikecraft",
+        "launch_destination_formation_offset": {
+            "rank": 2,
+            "group": 0
+        },
+        "hangar_points": [
+            {
+                "position": [0.000031, 302.621887, 298.399963],
+                "rotation": [1.0, 0.0, 0.0, 0.0, -0.0, -1.0, 0.0, 1.0, -0.0]
+            },
+            {
+                "position": [-258.421967, 302.621857, -149.200012],
+                "rotation": [-0.50, -0.0, 0.866026, 0.866026, -0.0, 0.50, 0.0, 1.0, -0.0]
+            },
+            {
+                "position": [258.422028, 302.621857, -149.199966],
+                "rotation": [-0.50, -0.0, -0.866026, -0.866026, -0.0, 0.50, -0.0, 1.0, -0.0]
+            }
+        ]
+    },
+    "items": {
+        "levels": [
+            {
+                "max_ship_component_count": 8
+            }
+        ],
+        "requires_ship_component_shop_to_purchase_items": false
+    },
+    "trade_port": {
+        "max_trade_ship_count": 4,
+        "trade_ship_construction_time": 60.0,
+        "trade_ship": "ancients_frigate_tradeship",
+        "special_operation_unit_kind": "trade_ship",
+        "create_trade_ship_offset": [0.0, 0.0, 1500.0]
+    },
+    "target_filter_unit_type": "starbase",
+    "tags": [
+        "starbase"
+    ],
+    "virtual_supply_cost": 200,
+    "abilities": [
+        {
+            "abilities": [
+                "ancients_starbase_drone_swarm"
+            ]
+        }
+    ],
+    "skin_groups": [
+        {
+            "skins": [
+                "ancients_starbase"
+            ]
+        }
+    ],
+    "action_effect_size": "large_unit"
+}

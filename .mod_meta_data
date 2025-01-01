@@ -1,0 +1,11 @@
+{
+    "compatibility_version": 2,
+    "display_name": "Stargate - A new home",
+    "display_version": "v0.1",
+    "short_description": "Play as Col Everett Young and control the destiny and a single planet",
+    "long_description": "Play as Col Everett Young and control the destiny and a single planet",
+    "logos": {
+        "small_logo": "Destiny_small.jpg",
+        "large_logo": "Destiny_large.jpg"
+    }
+}
