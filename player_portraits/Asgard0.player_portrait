@@ -1,0 +1,9 @@
+{
+    "sizes":
+    {
+        "tiny": "PlayerPortraitAsgard0Tiny",
+        "medium": "PlayerPortraitAsgard0Medium",
+        "large": "PlayerPortraitAsgard0Large",
+        "lobby": "PlayerPortraitAsgard0Lobby"
+    }
+}

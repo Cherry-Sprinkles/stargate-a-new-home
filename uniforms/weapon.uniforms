@@ -1,0 +1,7 @@
+{
+    "weapon_tags": [
+    {
+        "name": "ancients_drone",
+        "localized_name": "weapon_tag_name.ancients_drone"
+    }]
+}

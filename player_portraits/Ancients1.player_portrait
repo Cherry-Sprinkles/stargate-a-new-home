@@ -1,0 +1,9 @@
+{
+    "sizes":
+    {
+        "tiny": "PlayerPortraitAncients1Tiny",
+        "medium": "PlayerPortraitAncients1Medium",
+        "large": "PlayerPortraitAncients1Large",
+        "lobby": "PlayerPortraitAncients1Lobby"
+    }
+}

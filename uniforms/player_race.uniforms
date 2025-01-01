@@ -1,0 +1,375 @@
+{
+  "races": [
+    {
+      "name": "TauriRemnants",
+      "localized_name": "PlayerRace.tauriRemnants",
+      "portraits": [
+        "Ancients0",
+        "Ancients1",
+        "Ancients2"
+      ],
+      "icons": [
+        "vasari_0",
+        "vasari_1",
+        "vasari_2",
+        "vasari_3",
+        "vasari_4",
+        "vasari_5",
+        "vasari_6",
+        "vasari_7",
+        "vasari_8",
+        "vasari_9",
+        "vasari_10",
+        "vasari_11",
+        "vasari_12",
+        "vasari_13"
+      ],
+      "music": {
+        "in_game_music_pools": {
+          "front_end": {
+            "first_music_track_index": 0,
+            "exhaustive_shuffle": true,
+            "music_tracks": [
+              {
+                "sound": "sins2_title_track",
+                "weight": 1
+              },
+              {
+                "sound": "tech_ambient_1",
+                "weight": 1
+              },
+              {
+                "sound": "advent_ambient_1",
+                "weight": 1
+              },
+              {
+                "sound": "vasari_ambient_8",
+                "weight": 1
+              }
+            ]
+          },
+          "loading": {
+            "music_tracks": [
+              {
+                "sound": "SGA_AtlantisWakes",
+                "weight": 1
+              }
+            ]
+          },
+          "ambient": {
+            "music_tracks": [
+              {
+                "sound": "SGU_GauntletEndingTheme",
+                "weight": 1
+              },
+              {
+                "sound": "SGA_AtlantisWakes",
+                "weight": 1
+              },
+              {
+                "sound": "SGA_TheHologram",
+                "weight": 1
+              },
+              {
+                "sound": "SGU_AHauntingFarewell",
+                "weight": 1
+              },
+              {
+                "sound": "SGU_AHeavyBurden",
+                "weight": 1
+              },
+              {
+                "sound": "SGU_TJsFinalDays",
+                "weight": 1
+              },
+              {
+                "sound": "SGU_TwoGraves",
+                "weight": 1
+              },
+              {
+                "sound": "SGU_NickAndMandy",
+                "weight": 1
+              },
+              {
+                "sound": "SGU_RequitedUnrequited",
+                "weight": 1
+              },
+              {
+                "sound": "SGU_SittingInTheBackyard",
+                "weight": 1
+              }
+            ]
+          },
+          "early_game_neutral": {
+            "extra_music_tracks_pool_type": "ambient",
+            "music_tracks": [
+              {
+                "sound": "SGU_Light",
+                "weight": 1
+              },
+              {
+                "sound": "SGU_DialingEarth",
+                "weight": 1
+              }
+            ]
+          },
+          "early_game_winning": {
+            "extra_music_tracks_pool_type": "ambient",
+            "music_tracks": [
+              {
+                "sound": "SGA_AtlantisTakesFlight",
+                "weight": 1
+              },
+              {
+                "sound": "SGU_Light",
+                "weight": 1
+              }
+            ]
+          },
+          "early_game_losing": {
+            "extra_music_tracks_pool_type": "ambient",
+            "music_tracks": [
+              {
+                "sound": "SGU_Light",
+                "weight": 1
+              },
+              {
+                "sound": "SGA_WraithLair",
+                "weight": 1
+              }
+            ]
+          },
+          "mid_game_neutral": {
+            "extra_music_tracks_pool_type": "ambient",
+            "music_tracks": [
+              {
+                "sound": "SGU_Light",
+                "weight": 1
+              },
+              {
+                "sound": "SGA_ONeillInbound",
+                "weight": 1
+              }
+            ]
+          },
+          "mid_game_winning": {
+            "extra_music_tracks_pool_type": "ambient",
+            "first_music_track_index": 2,
+            "music_tracks": [
+              {
+                "sound": "SGU_Light",
+                "weight": 1
+              },
+              {
+                "sound": "SGA_WeirSpeaks",
+                "weight": 1
+              },
+              {
+                "sound": "SGA_OurNewHomeAtlantis",
+                "weight": 1
+              }
+            ]
+          },
+          "mid_game_losing": {
+            "extra_music_tracks_pool_type": "ambient",
+            "first_music_track_index": 2,
+            "music_tracks": [
+              {
+                "sound": "SGU_AwaitingTheAttack",
+                "weight": 1
+              },
+              {
+                "sound": "SGU_Light",
+                "weight": 1
+              },
+              {
+                "sound": "SGA_Messages",
+                "weight": 1
+              }
+            ]
+          },
+          "late_game_neutral": {
+            "extra_music_tracks_pool_type": "ambient",
+            "first_music_track_index": 1,
+            "music_tracks": [
+              {
+                "sound": "SGU_Light",
+                "weight": 2
+              },
+              {
+                "sound": "SGU_DialingPittsburg",
+                "weight": 2
+              },
+              {
+                "sound": "SGU_TheChair",
+                "weight": 1
+              }
+            ]
+          },
+          "late_game_winning": {
+            "extra_music_tracks_pool_type": "ambient",
+            "first_music_track_index": 3,
+            "music_tracks": [
+              {
+                "sound": "SGU_Light",
+                "weight": 2
+              },
+              {
+                "sound": "SGA_TheRising",
+                "weight": 2
+              },
+              {
+                "sound": "SGU_TheChair",
+                "weight": 1
+              },
+              {
+                "sound": "SGU_DestinysBridge",
+                "weight": 1
+              },
+              {
+                "sound": "SGU_SeekingJustice",
+                "weight": 2
+              }
+            ]
+          },
+          "late_game_losing": {
+            "extra_music_tracks_pool_type": "ambient",
+            "first_music_track_index": 3,
+            "music_tracks": [
+              {
+                "sound": "SGU_AwaitingTheAttack",
+                "weight": 1
+              },
+              {
+                "sound": "SGU_Light",
+                "weight": 1
+              },
+              {
+                "sound": "SGU_APleaForTheMission",
+                "weight": 1
+              },
+              {
+                "sound": "SGU_DialingPittsburg",
+                "weight": 1
+              }
+            ]
+          },
+          "battle_neutral": {
+            "music_tracks": [
+              {
+                "sound": "SGU_CountdownToDestiny",
+                "weight": 1
+              },
+              {
+                "sound": "shared_battle_0",
+                "weight": 1
+              },
+              {
+                "sound": "shared_battle_1",
+                "weight": 1
+              },
+              {
+                "sound": "shared_battle_2",
+                "weight": 1
+              },
+              {
+                "sound": "shared_battle_3",
+                "weight": 1
+              }
+            ]
+          },
+          "battle_winning": {
+            "music_tracks": [
+              {
+                "sound": "SGU_CountdownToDestiny",
+                "weight": 1
+              },
+              {
+                "sound": "SGA_RogueDrone",
+                "weight": 1
+              },
+              {
+                "sound": "shared_battle_0",
+                "weight": 1
+              },
+              {
+                "sound": "shared_battle_1",
+                "weight": 1
+              },
+              {
+                "sound": "shared_battle_2",
+                "weight": 1
+              },
+              {
+                "sound": "shared_battle_3",
+                "weight": 1
+              }
+            ]
+          },
+          "battle_losing": {
+            "music_tracks": [
+              {
+                "sound": "SGA_DartBattle",
+                "weight": 1
+              },
+              {
+                "sound": "SGA_RogueDrone",
+                "weight": 1
+              },
+              {
+                "sound": "SGA_WraithAbductions",
+                "weight": 1
+              },
+              {
+                "sound": "shared_battle_1",
+                "weight": 1
+              },
+              {
+                "sound": "shared_battle_2",
+                "weight": 1
+              },
+              {
+                "sound": "shared_battle_3",
+                "weight": 1
+              }
+            ]
+          },
+          "game_won": {
+            "first_music_track_index": 0,
+            "music_tracks": [
+              {
+                "sound": "vasari_victory",
+                "weight": 1
+              },
+              {
+                "sound": "vasari_mid_game_winning",
+                "weight": 1
+              },
+              {
+                "sound": "vasari_late_game_winning",
+                "weight": 1
+              }
+            ]
+          },
+          "game_lost": {
+            "first_music_track_index": 0,
+            "music_tracks": [
+              {
+                "sound": "vasari_loss",
+                "weight": 1
+              },
+              {
+                "sound": "vasari_mid_game_winning",
+                "weight": 1
+              },
+              {
+                "sound": "vasari_late_game_winning",
+                "weight": 1
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
